@@ -5,12 +5,14 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 15px;
-    width: 1000px;
+    width: 80%;
+    max-width: 1400px;
+    min-width: 946px;
     height: 940px;
     background-color: #f1f1f1;
     display: block;
-    padding: 0 10%;
-    margin: 0 0 0 0;
+    padding: 0;
+    margin: 0 auto;
     position: center;
 }
 
@@ -21,7 +23,7 @@ form {
 
 input {
     height: 81px;
-    width: 80%;
+    width: 91%;
     font-size: 600%;
     font-weight: bolder;
     color: #cccccc;
@@ -34,33 +36,35 @@ input {
 }
 
 ul {
-    display: inline;
     list-style-type: none;
-    padding: 0 0 0 0;
-    margin: 0;
+    padding: 0;
+    margin: 0 auto;
     display: inline-block;
+    width: 100%;
 }
 
 .button {
     width: 80px;
     height: 80px;
     display: inline-block;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: 0px solid;
     background-color: #f1f1f1;
     vertical-align: middle;
+    
 }
 
 .list {
     display: inline-block;
-    width: 200px;
+    width: 100%;
 }
 
-div>aside {
-    display: inline;
+aside {
+    display: inline-block;
     vertical-align: middle;
     padding-bottom: 300px;
+    width: 31%;
 }
 
 .list_1 {
@@ -70,6 +74,7 @@ div>aside {
 
 .list_2 {
     display: inline-block;
+    margin: 0 20px;
 }
 
 .list_3 {
@@ -93,7 +98,7 @@ h2 {
 
 h3 {
     color: #acacac;
-    font-size: 0.95em;
+    font-size: 0.9em;
     vertical-align: middle;
     display: inline-block;
     margin: 0 auto;
@@ -107,12 +112,9 @@ a {
     display: inline-block;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    width: 400px;
+    width: 95%;
     margin: 3px;
     padding: 10px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 a:hover {
@@ -123,6 +125,7 @@ a:hover h3 {
     color: #ec5a62;
 }
 
-button:hover {
-   width: 200px;
+button .button:hover {
+    width: 100px;
+    height: 100px;
 }
