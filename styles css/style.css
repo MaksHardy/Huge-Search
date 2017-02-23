@@ -1,0 +1,128 @@
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 1000px;
+    height: 940px;
+    background-color: #f1f1f1;
+    display: block;
+    padding: 0 10%;
+    margin: 0 0 0 0;
+    position: center;
+}
+
+form {
+    position: center;
+    padding: 40px 0;
+}
+
+input {
+    height: 81px;
+    width: 80%;
+    font-size: 600%;
+    font-weight: bolder;
+    color: #cccccc;
+    margin: 0;
+    padding-left: 10px;
+    border: 0px solid;
+    display: inline-block;
+    background-color: #f1f1f1;
+    vertical-align: middle;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    padding: 0 0 0 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0px solid;
+    background-color: #f1f1f1;
+    vertical-align: middle;
+}
+
+.list {
+    display: inline-block;
+    width: 200px;
+}
+
+div>aside {
+    display: inline;
+    vertical-align: middle;
+    padding-bottom: 300px;
+}
+
+.list_1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.list_2 {
+    display: inline-block;
+}
+
+.list_3 {
+    display: inline-block;
+}
+
+.circle {
+    border-radius: 50%;
+    widows: 20%;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h2 {
+    font-size: 110%;
+    color: #acacac;
+}
+
+h3 {
+    color: #acacac;
+    font-size: 0.95em;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 5px;
+}
+
+a {
+    vertical-align: middle;
+    background-color: #ebebec;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 3px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a:hover {
+    background-color: rgba(118, 117, 128, 0.1);
+}
+
+a:hover h3 {
+    color: #ec5a62;
+}
+
+button:hover {
+   width: 200px;
+}
